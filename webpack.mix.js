@@ -13,15 +13,9 @@ mix.webpackConfig({
 });
 
 mix.js('source/_assets/js/main.js', 'js')
+    .js('source/_assets/js/lib/jquery.waypoints.min.js', 'js/lib/')
     .sass('source/_assets/sass/main.scss', 'css')
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.config.js') ],
     }).version();
-
-// mix.browserSync({
-//     proxy: "micro-portfolio.test",
-//     host: "micro-portfolio.test",
-//     open: "external",
-//     files: ['source/**/*.md', 'source/**/*.php', 'source/**/*.scss', '!source/**/_tmp/*']
-// });

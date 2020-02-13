@@ -1,4 +1,5 @@
 {
-    "/js/main.js": "/js/main.js?id=f8907d6cdc0f277746cd",
-    "/css/main.css": "/css/main.css?id=438c6ae0e485bc5698d4"
+    "/js/lib/jquery.waypoints.min.js": "/js/lib/jquery.waypoints.min.js?id=d83dcd09bb984032ef1e",
+    "/js/main.js": "/js/main.js?id=54875d1a7b6e892572f2",
+    "/css/main.css": "/css/main.css?id=088b17a601e1c8f9b5a1"
 }

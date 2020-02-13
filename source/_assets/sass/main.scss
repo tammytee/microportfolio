@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply antialiased;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  @apply underline text-indigo-800 font-semibold;
+
+  .footer & {
+    @apply font-normal text-gray-600;
+  }
+}
+
+.headline {
+  line-height: 1;
+}
